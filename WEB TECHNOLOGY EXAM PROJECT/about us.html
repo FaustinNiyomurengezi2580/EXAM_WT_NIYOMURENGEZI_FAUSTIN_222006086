@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* To ensure no scrollbar appears */
+            background-color: orange;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        .moving-text {
+            display: inline-block;
+            animation: moveUpDown 3s infinite alternate;
+        }
+
+        @keyframes moveUpDown {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+
+        a {
+            display: block;
+            margin: 20px 0;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>About Our Task Management Application</h1>
+    <p class="moving-text">Our Task Management Application is designed to help individuals and teams organize, assign, and track tasks and projects efficiently.</p>
+    <p class="moving-text">With features like task assignment, project management, collaboration tools, and more, we aim to streamline your workflow and boost productivity.</p>
+    <p class="moving-text">Get started today and experience the benefits of better task management!</p>
+    <a href="index.php">Back To index.php</a>
+    <a href="contact us.html">contact us</a>
+</body>
+
+</html>
