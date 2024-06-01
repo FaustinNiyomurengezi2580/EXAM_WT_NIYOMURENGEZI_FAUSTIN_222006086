@@ -7,10 +7,12 @@
 <style>
     body {
         font-family: Arial, sans-serif;
+         background-color: orange;
     }
     form {
         max-width: 400px;
         margin: 0 auto;
+        background-color: pink;
     }
     input[type="text"], input[type="date"], select, textarea {
         width: 100%;
